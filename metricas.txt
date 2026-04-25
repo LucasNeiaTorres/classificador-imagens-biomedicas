@@ -1,0 +1,56 @@
+=== Metodo: CV_COMP_CORREL (Correlation) ===
+Estrategia de decisao: class_mean
+=== Matriz de confusao (classe positiva: Pneumothorax) ===
+TP: 10
+TN: 10
+FP: 5
+FN: 5
+
+=== Metricas ===
+Sensibilidade: 0.6667
+Especificidade: 0.6667
+
+Configuracao usada: size=96x96, bins=32, preprocess=clahe
+
+=== Metodo: CV_COMP_CHISQR (Chi-Square) ===
+Estrategia de decisao: class_mean
+=== Matriz de confusao (classe positiva: Pneumothorax) ===
+TP: 7
+TN: 13
+FP: 2
+FN: 8
+
+=== Metricas ===
+Sensibilidade: 0.4667
+Especificidade: 0.8667
+
+Configuracao usada: size=128x128, bins=64, preprocess=clahe
+
+=== Metodo: CV_COMP_INTERSECT (Intersection) ===
+Estrategia de decisao: nearest
+=== Matriz de confusao (classe positiva: Pneumothorax) ===
+TP: 11
+TN: 12
+FP: 3
+FN: 4
+
+=== Metricas ===
+Sensibilidade: 0.7333
+Especificidade: 0.8000
+
+Configuracao usada: size=64x64, bins=256, preprocess=clahe
+
+=== Metodo: CV_COMP_BHATTACHARYYA (Bhattacharyya distance) ===
+Estrategia de decisao: class_mean
+=== Matriz de confusao (classe positiva: Pneumothorax) ===
+TP: 8
+TN: 13
+FP: 2
+FN: 7
+
+=== Metricas ===
+Sensibilidade: 0.5333
+Especificidade: 0.8667
+
+Configuracao usada: size=64x64, bins=32, preprocess=raw
+
